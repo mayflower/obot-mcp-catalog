@@ -4,7 +4,7 @@ This repository contains the official catalog of MCP (Model Context Protocol) se
 
 ## Overview
 
-The catalog currently includes **77 MCP servers** across various categories:
+The catalog currently includes **78 MCP servers** across various categories:
 
 - **Cloud & Infrastructure**: AWS, Azure, GCP, DigitalOcean, Cloudflare
 - **Databases**: PostgreSQL, MongoDB, MySQL, Redis, Elasticsearch, Snowflake
@@ -26,6 +26,8 @@ Each user gets their own isolated server instance running in a container. Users 
 Hosted MCP servers accessible via HTTP. These connect to external services that handle their own authentication or use API keys passed via headers.
 
 ## Adding a New MCP Server
+
+For a comprehensive guide with detailed examples, validation pipeline documentation, and best practices, see **[HOWTO.md](HOWTO.md)**.
 
 ### Step 1: Create the YAML Definition
 
